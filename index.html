@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой первый сайт - Путешествия по миру</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #333;
+        }
+        
+        /* Полупрозрачный слой для лучшей читаемости текста */
+        main, header, footer {
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 20px;
+            margin: 15px;
+            border-radius: 10px;
+        }
+        
+        /* Стили для улучшения внешнего вида */
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #3498db;
+            border-bottom: 1px solid #3498db;
+            padding-bottom: 5px;
+        }
+        
+        a {
+            color: #e74c3c;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        img {
+            max-width: 300px;
+            height: auto;
+            margin: 10px;
+            border: 3px solid #ecf0f1;
+            border-radius: 5px;
+        }
+        
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на сайт о путешествиях!</h1>
+        <nav>
+            <ul>
+                <li><a href="#europe">Европа</a></li>
+                <li><a href="#asia">Азия</a></li>
+                <li><a href="#america">Америка</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="europe">
+            <h2>Популярные направления в Европе</h2>
+            <ul>
+                <li>Париж, Франция</li>
+                <li>Рим, Италия</li>
+                <li>Барселона, Испания</li>
+            </ul>
+            <div class="image-container">
+                <!-- Эйфелева башня -->
+                <img src="https://images.unsplash.com/photo-1431274172761-fca41d930114" 
+                     alt="Вид на Эйфелеву башню в Париже с рекой Сеной на переднем плане">
+                
+                <!-- Колизей -->
+                <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5" 
+                     alt="Колизей в Риме - древний амфитеатр с арками и частично разрушенными стенами">
+                
+                <!-- Саграда Фамилия -->
+                <img src="https://images.unsplash.com/photo-1583422409516-2895a77efded" 
+                     alt="Собор Саграда Фамилия в Барселоне с детализированными фасадами и башнями">
+            </div>
+        </section>
+
+        <article>
+            <h2>Советы путешественникам</h2>
+            <p>Путешествие - это прекрасный способ узнать мир и себя. Вот несколько советов для начинающих путешественников:</p>
+            <ul>
+                <li>Всегда делайте копии важных документов</li>
+                <li>Изучайте базовые фразы на языке страны посещения</li>
+                <li>Пробуйте местную кухню - это часть культурного опыта</li>
+            </ul>
+            <p>Подробнее о путешествиях можно узнать на <a href="https://www.lonelyplanet.com/" target="_blank" rel="noopener noreferrer">Lonely Planet</a>.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2023 Мой сайт о путешествиях. Все права защищены.</p>
+    </footer>
+</body>
+</html>
