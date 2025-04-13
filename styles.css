@@ -1,0 +1,84 @@
+/* Основные стили для body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Стили для header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Стили для navigation */
+nav {
+    background-color: #34495e;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Стили для main content */
+main {
+    background-color: white;
+    font-size: 18px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+/* Стили для footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Стили для списков */
+li {
+    display: inline-block;
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+}
+
+/* Стили для заголовка h1 */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+/* Стили для параграфов */
+p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
